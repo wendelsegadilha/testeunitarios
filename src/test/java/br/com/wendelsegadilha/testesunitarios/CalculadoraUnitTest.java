@@ -78,7 +78,7 @@ public class CalculadoraUnitTest {
 	@Test
 	void deveDividirComSucesso() {
 		var resultado = calculadora.dividir(10.0, 2.0);
-		assertEquals(6.0, resultado);
+		assertEquals(5.0, resultado);
 	}
 	
 	@DisplayName("Teste de divisão com sucesso para vários valores")
